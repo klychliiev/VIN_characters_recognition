@@ -1,6 +1,6 @@
 # **VIN characters recognition using Python and Deep Learning**
 
-This project is aimed at VIN characters recognition. Full notebook describing data preparation process, model training and model evaluation can be found at https://colab.research.google.com/drive/17AjHy4JntLBbtQYrEFTqc8uGMuNmQNHy
+This project is aimed at VIN characters recognition.
 
 ---
 
