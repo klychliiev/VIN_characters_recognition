@@ -1,0 +1,9 @@
+keras==2.12.0
+numpy==1.22.4
+opencv_python==4.7.0.72
+emnist==0.0
+scikit-learn==1.2.2
+matplotlib==3.7.1
+seaborn==0.12.2
+pandas==1.5.3
+tensorflow==2.12.0
