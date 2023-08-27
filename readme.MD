@@ -63,7 +63,7 @@ Model: "sequential"
 
 ---
 
-### Layer (type)                Output Shape              Param
+#### Layer (type)                Output Shape              Param
 
 conv2d (Conv2D)             (None, 24, 24, 128)       3328
 
