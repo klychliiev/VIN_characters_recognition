@@ -6,8 +6,7 @@ This project is aimed at VIN characters recognition.
 
 ## Getting started with the project
 
-To run the program two folders are needed: the first is the unzipped project folder and the second is the test data (scanned images), which one should place inside the first folder.
-Move to the project folder (ml_internship_project). Below is the example of program output using requirements.txt:
+To run the program two folders are needed: the first is the unzipped project folder and the second is the folder containing test data (scanned images), which one should place inside the first folder. You can replace the 'images' folder with your own pictures if you wish. Below is the example of program output using requirements.txt:
 
 ```bash
 ls 
@@ -23,17 +22,17 @@ source myvenv/bin/activate
 pip3 install -r requirements.txt
 
 python3 inference.py images
-090, vin_recognition/images/z.png
-052, vin_recognition/images/4.png
-087, vin_recognition/images/n.png
-084, vin_recognition/images/t.png
-076, vin_recognition/images/l.png
-087, vin_recognition/images/w.png
-070, vin_recognition/images/f.jpg
-080, vin_recognition/images/p.png
-086, vin_recognition/images/v.png
-049, vin_recognition/images/5.png
-070, vin_recognition/images/f.png
+090, VIN_characters_recognition/images/z.png
+052, VIN_characters_recognition/images/4.png
+087, VIN_characters_recognition/images/n.png
+084, VIN_characters_recognition/images/t.png
+076, VIN_characters_recognition/images/l.png
+087, VIN_characters_recognition/images/w.png
+070, VIN_characters_recognition/images/f.jpg
+080, VIN_characters_recognition/images/p.png
+086, VIN_characters_recognition/images/v.png
+049, VIN_characters_recognition/images/5.png
+070, VIN_characters_recognition/images/f.png
 ```
 
 Note, after running the program you receive the output as follow:
