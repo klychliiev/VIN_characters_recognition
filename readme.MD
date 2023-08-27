@@ -96,15 +96,11 @@ Non-trainable params: 0
 
 ---
 
-Another model architecture was used to solve this problem. It showed a bit better performance, but it overfits, as shown on the graph.
-
-![graph](metadata/graph.jpg)
-
 ## Model performance
 
 The model tested on unseen data showed an overall accuracy of 93%.
 
-The classification report generated using sklearn library shows good results for most characters (over 0.9). The execptions are '1' and 'L' which are often misclassified due to the fact, that The EMNIST Dataset also contains images of handwritten lowercase 'L', which resembles '1' a lot.
+The classification report generated using sklearn library shows good results for most characters (around 0.95). The execptions are '1' and 'l' which are often misclassified due to the fact, that The EMNIST Dataset also contains images of handwritten lowercase 'L', which resembles '1' a lot.
 
 The classification report:
 
@@ -144,13 +140,10 @@ The classification report:
     
     accuracy                           0.93     26400
 
-macro avg       0.93      0.93      0.93     26400
-weighted avg       0.93      0.93      0.93     26400
-
 ## Author
 
 Klychliiev Kyrylo
 
 [LinkedIn](https://www.linkedin.com/in/kyrylo-klychliiev/)
 
-Ukraine, Chernihiv
+Ukraine, Chernihiv/Kyiv
