@@ -35,9 +35,9 @@ python3 inference.py images
 070, VIN_characters_recognition/images/f.png
 ```
 
-Note, after running the program you receive the output as follow:
+Note, after running the program you receive the output as follows:
 090, ml_internship_project/images/z.png,
-where the first argument, 090, is an ASCII code for recognized character (090 is Z) and the second argument is the directory to the image. As you can see from the file name, the character on the image is also Z, so our model predicted it correctly.
+where the first argument, 090, is an ASCII code for the recognized character (090 is Z) and the second argument is the directory of the image. As you can see from the file name, the character on the image is also Z, so our model predicted it correctly.
 
 ## Python packages used in this project
 
